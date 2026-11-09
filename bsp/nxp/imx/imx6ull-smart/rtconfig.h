@@ -61,8 +61,9 @@
 
 /* end of rt_strnlen options */
 /* end of klibc options */
-#define RT_NAME_MAX 12
+#define RT_NAME_MAX 16
 #define RT_USING_SMART
+#define RT_USING_MUSLLIBC 1
 #define RT_CPUS_NR 1
 #define RT_ALIGN_SIZE 4
 #define RT_THREAD_PRIORITY_32
@@ -441,10 +442,6 @@
 /* Wiced WiFi */
 
 /* end of Wiced WiFi */
-#define PKG_USING_RW007
-#define PKG_USING_RW007_LATEST_VERSION
-#define RW007_NOT_USE_EXAMPLE_DRIVERS
-#define RW007_SPI_MAX_HZ 30000000
 
 /* CYW43012 WiFi */
 
@@ -717,9 +714,6 @@
 
 /* Select Wifi Driver */
 
-#define RT_USING_WIFI_RW007
-#define RW007_DAFAULT_SSID "rt-thread"
-#define RW007_DAFAULT_PASSWARD "12345678"
 /* end of Select Wifi Driver */
 
 /* Select USB Driver */
